@@ -1,6 +1,5 @@
 #include <vector>
 #include <iostream>
-#include <algorithm>
 
 using namespace std;
 
@@ -15,7 +14,7 @@ vector<double> movingAverage1(const vector<double>& A, int M)
 		// A[i]까지의 이동 평균 구하기
 		double partialSum = 0;
 		for (int j = 0; j < M; ++j) {
-			partialSum += A[i - j];
+			partialSum += A[i - j]; 
 			ret.push_back(partialSum / M);
 		}
 	}
@@ -32,7 +31,5 @@ int main(void)
 	for (int i = 0; i < Result.size(); i++) {
 		cout << Result[i] << endl;
 	}
-
-
 	return 0;
 }
