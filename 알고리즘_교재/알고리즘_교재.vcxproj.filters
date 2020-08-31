@@ -21,5 +21,8 @@
     <ClCompile Include="코드 4.4 이동 평균 구하기 - 2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="코드4.1 주어진 배열에서 가장 많이 등장하는 숫자 반환.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
