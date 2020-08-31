@@ -21,7 +21,6 @@ vector<double> movingAverage2(const vector<double>& A, int M) {
 }
 int main(void)
 {
-	+ 
 	vector<double> A = {1,2,3,4,5,6,7,8,9,10,11,12};
 	vector<double> Result;
 	int M = 3;
